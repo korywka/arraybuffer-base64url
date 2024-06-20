@@ -1,6 +1,6 @@
 {
 	"name": "arraybuffer-base64url",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Convert base64url to ArrayBuffer and vice versa",
 	"type": "module",
 	"main": "src/index.js",
@@ -8,7 +8,7 @@
 		"lint": "eslint . --fix",
 		"build": "tsc"
 	},
-	"types": "types/types.d.ts",
+	"types": "types/index.d.ts",
 	"devDependencies": {
 		"eslint": "8.56.0",
 		"eslint-config-ecmascript": "2.7.0",
