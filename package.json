@@ -1,0 +1,21 @@
+{
+	"name": "arraybuffer-base64url",
+	"version": "1.0.0",
+	"description": "Convert base64url to ArrayBuffer and vice versa",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"lint": "eslint . --fix",
+		"build": "tsc"
+	},
+	"types": "types/types.d.ts",
+	"devDependencies": {
+		"eslint": "8.56.0",
+		"eslint-config-ecmascript": "2.7.0",
+		"typescript": "5.4.5"
+	},
+	"files": ["src", "types"],
+	"keywords": ["base64url", "arraybuffer", "convert"],
+	"repository": "korywka/arraybuffer-base64url",
+	"license": "MIT"
+}
